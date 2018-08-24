@@ -29,3 +29,9 @@
   language: script
   files: (\.tf|\.tfvars)$
   exclude: \.terraform\/.*$
+
+- id: terraform_tflint
+  name: Terraform tflint
+  description: Runs tflint on the terraform files
+  entry: tflint.sh
+  language: script
